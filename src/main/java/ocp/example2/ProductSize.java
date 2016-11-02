@@ -5,7 +5,7 @@ public enum ProductSize {
 
     private int value;
 
-    private ProductSize(int value) {
+    ProductSize(int value) {
         this.value = value;
     }
 

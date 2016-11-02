@@ -1,11 +1,14 @@
 package ocp.example2;
 
 public enum ProductColor {
-    RED("red"), BLUE("blue"), GREEN("green"), BLACK("black");
+    RED("red"),
+    BLUE("blue"),
+    GREEN("green"),
+    BLACK("black");
 
     private String value;
 
-    private ProductColor(String value) {
+    ProductColor(String value) {
         this.value = value;
     }
 
